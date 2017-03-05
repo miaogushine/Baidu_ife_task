@@ -197,22 +197,26 @@ ul li{
   margin-top: 10px;
 }
 .middle5 .input form .in2{
-  margin-left:300px;
-  margin-top: -30px;
-}
-.middle5 .input form .in2 p{
-  color:#ccc;
-  font-size: 14px;
-  margin-left:140px;
-    margin-top: -10px;
-    margin-bottom: 30px;
+  margin-left:330px;
+  margin-top: 20px;
 }
 .middle5 .input form .in3{
   margin-left:380px;
-  margin-top: -30px;
+  margin-top: 20px;
 }
 .middle5 .input form .in4{
   margin-left:350px;
+}
+.middle5 .input form .in5{
+  margin-top: 20px;
+  margin-left:300px;
+}
+.middle5 .input form .in5 p{
+  color:#ccc;
+  font-size: 14px;
+  margin-left:140px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .middle5 .input .submit{
   border-radius: 8px;
