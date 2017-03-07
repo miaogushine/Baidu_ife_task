@@ -156,40 +156,38 @@
 				<p>下面是一个表格，我这里给表格加了一个boeder=“1”好让你看出是一个表格,你们不用写HTML时不需要加</p>
 			</div>
 			<div class="biaoge1">
-		<table class="table1" border="1">
-    	<tr>
-    	<th align="left" class="gg"><p>表头</p></th>
-    	<th align="left" class="gg"><p>表头</p></th>
-    	<th class="gg"><p>表头</p></th>
-    	</tr>
-    	<tr>
-    	<td>表内容单元格</td>
-    	<td>表内容单元格</td>
-    	<td><a href="www.baidu.com">操作</a></td>
-    	</tr>
-    	<tr>
-    	<td>表内容单元格</td>
-    	<td>表内容单元格</td>
-    	<td><a href="www.baidu.com">操作</a></td>
-    	</tr>
-    	<tr>
-    	<td>表内容单元格</td>
-    	<td>表内容单元格</td>
-        <td><a href="www.baidu.com">操作</a></td>
-        </tr>
-    	<tr>
-    	<td>表内容单元格</td>
-    	<td>表内容单元格</td>
-    	<td ><a href="www.baidu.com">操作</a></td>
-    	</tr>
-    	<tr>
-    		<td class="hh"><p>总计</p></td>
-    		<td class="hh" colspan="2"><p>1000</p></td>
-    		<!--<td>操作</td>-->
-    	</tr>
-    </table>
-
-			</div>
+				<table class="table1" border="1">
+			    	<tr>
+				    	<th class="gg"><p>表头</p></th>
+				    	<th class="gg"><p>表头</p></th>
+				    	<th class="gg"><p>表头</p></th>
+			    	</tr>
+			    	<tr>
+				    	<td>表内容单元格</td>
+				    	<td>表内容单元格</td>
+				    	<td><a href="www.baidu.com">操作</a></td>
+			    	</tr>
+			    	<tr>
+				    	<td>表内容单元格</td>
+				    	<td>表内容单元格</td>
+				    	<td><a href="www.baidu.com">操作</a></td>
+			    	</tr>
+			    	<tr>
+				    	<td>表内容单元格</td>
+				    	<td>表内容单元格</td>
+				        <td><a href="www.baidu.com">操作</a></td>
+			        </tr>
+			    	<tr>
+				    	<td>表内容单元格</td>
+				    	<td>表内容单元格</td>
+				    	<td ><a href="www.baidu.com">操作</a></td>
+			    	</tr>
+			    	<tfoot>
+						<th>总计</th>
+						<th colspan="2">1000</th>
+					</tfoot>
+		        </table>
+			</div>	
 		</div>
 		<div class="middle5">
 			<div class="bar">
@@ -202,14 +200,14 @@
 			        	<p>邮箱地址请按要求格式输入</p>
 		        	</div>
 		        	<div class="in2">
-			            请输入密码：<input type="password" name="user_password" placeholder="这是一个文本输入框" />
+			            请输入密码：<input type="password" name="user_password" value="这是一个文本输入框" />
 			        </div>
 			        <div class="in5">
-			            请重复输入密码：<input type="password" name="user_password" placeholder="这是一个文本输入框" />
+			            请重复输入密码：<input type="password" name="user_password" value="这是一个文本输入框" />
 			            <p>密码请为6-16位密码数字</p>
 		            </div>
 		            <div class="in3">
-			            性别：<input type="radio" name="sex" value="male" id="bb" /><label for="bb">男</label>
+			            性别：<input type="radio" name="sex" value="male" id="bb" checked="checked"/><label for="bb">男</label>
 			                  <label for="aa"><input type="radio" name="sex" value="female" id="aa" />女<br/><br/>
 			            城市：<select name="user_select">
 			            <optgroup label="城市名称">
@@ -228,7 +226,7 @@
 	            </form>
 	            <div class="submit">
 		            	<a href="#">确认提交</a>
-		            </div>
+		        </div>
 		    </div>
 		</div>
 	</div>
