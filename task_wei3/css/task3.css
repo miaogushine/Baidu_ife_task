@@ -1,0 +1,36 @@
+ .wrap{
+	background: #eee;
+	border:1px solid #999;
+	padding:20px;
+	overflow: hidden;
+}
+.wrap .con_left{
+    background: #fff;
+	border:1px solid #999;
+	width:158px;
+	padding: 20px;
+	float:left;
+}
+.wrap .con_left span{
+	float:right;
+}
+.wrap .middle{
+	width:905px;
+	margin:20px auto;
+	background: #fff;
+	border:1px solid #999;
+	padding:0px 20px 0px 20px;
+	float:left;
+	margin-top:0px;
+	margin-left: 20px
+}
+.wrap .con_right{
+	background: #fff;
+	border:1px solid #999;
+	width:78px;
+	padding: 20px;
+	float:right;
+}
+.wrap .con_right .gap{
+	padding-bottom:14px;
+} 
