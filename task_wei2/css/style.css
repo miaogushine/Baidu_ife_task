@@ -146,10 +146,15 @@ ul li{
   border-collapse:collapse;
 }
 .table1 tr th{
+  border:1px solid #ccc;
   padding-left:5px;
+  text-align: left;
 }
 .table1 tr td{
+  border:1px solid #ccc;
   padding-left:5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .biaoge1{
   margin:0px 0px 0px 20px
@@ -160,8 +165,9 @@ ul li{
 .gg p{
   color:#fff;
 }
-.hh{
-  background:#ccc;
+tfoot{
+  background:#CCCCCC;
+  text-align: left;
 }
 .hh p{
   color:#fff;
