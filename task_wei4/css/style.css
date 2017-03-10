@@ -1,0 +1,31 @@
+*{
+  margin:0px; 
+  padding:0px;
+}
+.container{
+  width:400px;
+  height:200px;
+  background:#ccc;
+  /* margin:200px auto; */
+  position:absolute;  /* 父元素设置position的目的是让子元素找到相对于谁来定位的 */
+  top:50%;
+  margin-top:-130px;
+  left:50%;
+  margin-left:-210px; 
+}
+.left_top{
+  position:absolute;
+  width:50px;
+  height:50px;
+  background:#fc0;
+  border-radius:0 0 50px 0;
+}
+.right_bottom{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px 0 0 0;
+	position: absolute;
+	background: #FC0;
+	right: 0;
+  bottom: 0;
+}
