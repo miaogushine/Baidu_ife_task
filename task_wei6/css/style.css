@@ -104,6 +104,7 @@ body{
   font-size:116px;
   color:#75b86b;
   font-style:oblique;
+  margin-left:-20px;
   /*padding-right: 10px;*/
 }
 .num{
@@ -381,12 +382,14 @@ body{
   bottom: 120px;
   right: 150px;
   font-style:normal;
+  font-family: "SimHei";
 }
 .youxia .hello .gg .ii{
   position: absolute;
   bottom: 30px;
   right: 0px;
-  font-style: normal;
+    font-style: normal;
+  font-family: "SimHei";
 }
 .footer{
   border-top:1px solid #938e8c;
