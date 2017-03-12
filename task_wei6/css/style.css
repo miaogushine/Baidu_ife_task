@@ -380,14 +380,14 @@ body{
 .youxia .hello .gg .hh{
   position: absolute;
   bottom: 120px;
-  right: 150px;
+  right: 145px;
   font-style:normal;
   font-family: "SimHei";
 }
 .youxia .hello .gg .ii{
   position: absolute;
   bottom: 30px;
-  right: 0px;
+  right: -10px;
     font-style: normal;
   font-family: "SimHei";
 }
