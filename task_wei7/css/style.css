@@ -5,6 +5,7 @@
 }
 .container{
 	width:100%;
+	min-width:1380px;
 }
 /*@media screen and (min-width: 1440px) {
     .container{overflow: scroll;}
@@ -421,6 +422,13 @@ header .header_right span{
 	color:#bf4f49;
 	margin:40px 0px 0px 100px;
 }
+.sec-six .para .pic{
+	margin-top: 10px;
+	margin-left: 105px;
+}
+.sec-six .para .pic img{
+	padding-left: 20px;
+}
 .sec-six .border-left{
 	width:0;
 	height:0;
@@ -500,11 +508,11 @@ header .header_right span{
 .sec-seven .new2 a{
 	margin-top: 30px;
 	display:inline-block;
-	border:1px solid #494949;
+	border:1px solid #e74f4d;
 	text-decoration: none;
 	width:170px;
 	height:40px;
-    color:#494949;
+    color:#e74f4d;
     font-size: 22px;
     line-height: 32px;
     line-height: 40px;
